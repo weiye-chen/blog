@@ -46,6 +46,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
+          source: ".nojekyll"
           source-directory: "public"
           destination-github-username: "thinkerall"
           destination-repository-name: "thinkerall.github.io"
