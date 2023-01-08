@@ -57,13 +57,13 @@ jobs:
         uses: rxrw/algolia-index-uploader@v1
         with:
           # Your Algolia IndexPath
-          index_path: public/index.json   <-- 生成的index.json位置，默认即可
+          index_path: public/index.json   
           # Algolia Index Id
-          algolia_index_id: N170ZR7D2B  <-- 你的indexId, 即之前获得的`application ID`
+          algolia_index_id: N170ZR7D2B  
           # Algolia Index Name
-          algolia_index_name: index.en  <--- 你创建的index名字
+          algolia_index_name: index.en  
           # Algolia Admin Key
-          algolia_index_admin_key: b91a3e4cb93b609d356b0756ed69ffa7  <--- 上图中获取的admin Key
+          algolia_index_admin_key: b91a3e4cb93b609d356b0756ed69ffa7  
           
       - name: Algolia Index Uploader zh-cn
         # You may pin to the exact commit or the version.
@@ -71,11 +71,11 @@ jobs:
         uses: rxrw/algolia-index-uploader@v1
         with:
           # Your Algolia IndexPath
-          index_path: public/zh-cn/index.json   <-- 生成的index.json位置，默认即可
+          index_path: public/zh-cn/index.json   
           # Algolia Index Id
-          algolia_index_id: N170ZR7D2B  <-- 你的indexId, 即之前获得的`application ID`
+          algolia_index_id: N170ZR7D2B  
           # Algolia Index Name
-          algolia_index_name: index.zh-cn  <--- 你创建的index名字
+          algolia_index_name: index.zh-cn  
           # Algolia Admin Key
-          algolia_index_admin_key: b91a3e4cb93b609d356b0756ed69ffa7  <--- 上图中获取的admin Key
+          algolia_index_admin_key: b91a3e4cb93b609d356b0756ed69ffa7  
           
