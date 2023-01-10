@@ -29,7 +29,7 @@ hasCJKLanguage = false
 paginate = 12
 # google analytics code [UA-XXXXXXXX-X]
 # 谷歌分析代号 [UA-XXXXXXXX-X]
-googleAnalytics = ""
+googleAnalytics = "G-L7TNG89TL1"
 # copyright description used only for seo schema
 # 版权描述，仅仅用于 SEO
 copyright = "Weiye Chen"
@@ -821,14 +821,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         title = ""
       [[languages.en.menu.main]]
         weight = 4
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 5
         identifier = "about"
         pre = ""
         post = ""
@@ -836,7 +828,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         url = "/about/"
         title = ""
       [[languages.en.menu.main]]
-        weight = 6
+        weight = 5
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
         post = ""
@@ -874,11 +866,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         Instagram = "weiye9751"
         Facebook = "profile.php?id=100088139658197"
         Telegram = "thinker_physics"
+		Googlescholar = ""
+		Researchgate = "Weiye-Chen-5"
         Email = "chenweiye.thinker@gmail.com"
-        RSS = false
-        [languages.en.params.social.Mastodon]
-          id = "@xxxx"
-          prefix = "https://mastodon.technology/"
+        RSS = true
 
   [languages.zh-cn]
     weight = 2
@@ -913,13 +904,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         title = ""
       [[languages.zh-cn.menu.main]]
         weight = 4
-        identifier = "documentation"
-        pre = ""
-        name = "文档"
-        url = "/categories/documentation/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 5
         identifier = "about"
         pre = ""
         post = ""
@@ -927,7 +911,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         url = "/about/"
         title = ""
       [[languages.zh-cn.menu.main]]
-        weight = 6
+        weight = 5
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
         post = ""
@@ -963,5 +947,5 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         GitHub = "thinkerall"
         Zhihu = "cwydai"
         Bilibili = "434421510"
-        Email = "chenweiye.thinker@gmail.com"
-        RSS = false
+        Email = "486103739@qq.com"
+        RSS = true
