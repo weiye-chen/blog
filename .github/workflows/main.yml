@@ -57,7 +57,7 @@ jobs:
         uses: rxrw/algolia-index-uploader@v1
         with:
           # Your Algolia IndexPath
-          index_path: public/en/index.json   
+          index_path: public/index.json   
           # Algolia Index Id
           algolia_index_id: N170ZR7D2B  
           # Algolia Index Name
