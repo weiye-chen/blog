@@ -15,7 +15,7 @@ categories: ["力学"]
 
 lightgallery: true
 ---
-
+## 质点运动学
 
 {{< bilibili id=BV1Fx411u7JZ p=5 >}}
 
