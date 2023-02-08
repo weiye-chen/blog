@@ -1,19 +1,19 @@
 ---
-weight: 1
-title: "Basic Markdown Syntax"
+weight: 
+title: ""
 date: 2023-01-11T21:57:40+08:00
 lastmod: 2023-01-11T16:45:40+08:00
 draft: false
-author: "Dillon"
-authorLink: "https://dillonzq.com"
-description: "This article shows the basic Markdown syntax and format."
+author: "Thinker"
+authorLink: "https://thinkerall.github.io/"
+description: ""
 images: []
 resources:
 - name: "featured-image"
   src: "featured-image.png"
 
-tags: ["Markdown", "HTML"]
-categories: ["Markdown"]
+tags: [""]
+categories: [""]
 
 lightgallery: true
 ---

@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://thinkerall.github.io/"
 
 # theme
 # 主题
@@ -264,10 +264,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       avatarURL = "/images/avatar.png"
       # title shown in home page (HTML format is supported)
       # 主页显示的网站标题 (支持 HTML 格式)
-      title = ""
+      title = "Thinker's Blog"
       # subtitle shown in home page (HTML format is supported)
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "Weclome to visit my blog!"
+      subtitle = "Just for knowledge!Just for truth!"
       # whether to use typeit animation for subtitle
       # 是否为副标题显示打字机动画
       typeit = true
@@ -517,7 +517,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         visitor = true
         recordIP = true
         highlight = true
-        enableQQ = false
+        enableQQ = true
         serverURLs = "https://leancloud.hugoloveit.com"
         # emoji data file name, default is "google.yml"
         # ["apple.yml", "google.yml", "facebook.yml", "twitter.yml"]
@@ -856,7 +856,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           gravatarEmail = ""
           avatarURL = "/images/avatar.png"
           title = ""
-          subtitle = "Welcome to visit my blog."
+          subtitle = "Just for knowledge!Just for truth!"
           typeit = true
           social = true
           disclaimer = ""
@@ -938,14 +938,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           enable = true
           gravatarEmail = ""
           avatarURL = "/images/avatar.png"
-          title = ""
-          subtitle = "欢迎访问我的博客"
+          title = "Thinker's Blog"
+          subtitle = "为了知识！为了真理！"
           typeit = true
           social = true
           disclaimer = ""
       [languages.zh-cn.params.social]
         GitHub = "thinkerall"
-        Zhihu = "cwydai"
+        Zhihu = "thinkerall"
         Bilibili = "434421510"
         Email = "486103739@qq.com"
         RSS = true
