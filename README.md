@@ -1,1 +1,1 @@
-"the soucre code of blog" 
+"The source code of blog." 

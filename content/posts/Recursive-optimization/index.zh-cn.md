@@ -4,7 +4,7 @@ title: "递归优化"
 date: 2023-02-09T0:45:40+08:00
 lastmod: 2023-02-09T0:0:40+08:00
 draft: false
-author: "Thinker"
+author: "William"
 authorLink: "https://thinkerall.github.io/"
 description: "递归算法优化方法和策略"
 images: []

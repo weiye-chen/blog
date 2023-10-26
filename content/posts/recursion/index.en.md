@@ -4,7 +4,7 @@ title: "Recursion Algorithm"
 date: 2023-02-08T08:00:00+08:00
 lastmod: 2023-02-08T07:00:00+08:00
 draft: false
-author: "Thiker"
+author: "William"
 authorLink: "https://thinkerall.github.io/"
 description: "Detailed explanation of Recursion Algorithm."
 images: []

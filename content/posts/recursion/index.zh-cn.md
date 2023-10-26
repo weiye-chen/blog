@@ -4,7 +4,7 @@ title: "递归算法"
 date: 2023-02-08T08:00:00+08:00
 lastmod: 2023-02-08T07:00:00+08:00
 draft: false
-author: "Thinker"
+author: "William"
 authorLink: "https://thinkerall.github.io/"
 description: "递归详解"
 images: []
