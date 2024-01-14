@@ -9,7 +9,7 @@ themesDir = "themes"
 
 # website title
 # 网站标题
-title = "William's Blog"
+title = "Thinker's Blog"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 # 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
@@ -51,7 +51,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 # Author config
 # 作者配置
 [author]
-  name = "William"
+  name = "thinker"
   email = "chenweiye.thinker@gmail.com"
   link = "https://thinkerall.github.io/"
 
@@ -106,7 +106,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
   # 网站标题, 用于 Open Graph 和 Twitter Cards
-  title = "William's Blog"
+  title = "Thinker's Blog"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
   description = "The website is a personal blog for learning and sharing knowledge."
@@ -131,7 +131,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       logo = ""
       # title name
       # 标题名称
-      name = "William's Blog"
+      name = "Thinker's Blog"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre =""
@@ -199,7 +199,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-    title = "William's Blog"
+    title = "Thinker's Blog"
     # whether to omit favicon resource links
     # 是否隐藏网站图标资源链接
     noFavicon = false
@@ -264,10 +264,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       avatarURL = "/images/avatar.png"
       # title shown in home page (HTML format is supported)
       # 主页显示的网站标题 (支持 HTML 格式)
-      title = "William's Blog"
+      title = "Thinker's Blog"
       # subtitle shown in home page (HTML format is supported)
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "Just for knowledge!Just for truth!"
+      subtitle = "Just for truth!"
       # whether to use typeit animation for subtitle
       # 是否为副标题显示打字机动画
       typeit = true
@@ -833,7 +833,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
         post = ""
         name = ""
-        url = "https://github.com/thinkerall"
+        url = "https://github.com/thinkerall/thinkerall.github.io"
         title = "GitHub"
     [languages.en.params]
       [languages.en.params.search]
@@ -856,15 +856,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           gravatarEmail = ""
           avatarURL = "/images/avatar.png"
           title = ""
-          subtitle = "Knowledge and Truth."
+          subtitle = "Just for knowledge!Just for truth!"
           typeit = true
           social = true
           disclaimer = ""
       [languages.en.params.social]
         GitHub = "thinkerall"
-		    Googlescholar = ""
-		    Researchgate = "Weiye-Chen-5"
-        Email = "486103739@qq.com"
+		Researchgate = "Weiye-Chen-5"
+        Email = "weiye.chen01@foxmail.com"
         RSS = true
 
   [languages.zh-cn]
@@ -934,8 +933,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           enable = true
           gravatarEmail = ""
           avatarURL = "/images/avatar.png"
-          title = ""
-          subtitle = "知识和真理"
+          title = "Thinker's Blog"
+          subtitle = "为了真理！"
           typeit = true
           social = true
           disclaimer = ""

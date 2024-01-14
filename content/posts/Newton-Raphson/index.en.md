@@ -72,7 +72,7 @@ double dichotomy_sqrt(double n){
 The algorithm complexity is $O(log_{2}n)$.
 
 
-## 参考
+## Reference
 
 &emsp;&emsp;[oi-wiki Newton](https://oi-wiki.org/math/numerical/newton/)
 
