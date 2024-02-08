@@ -47,8 +47,8 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
           source-directory: "public"
-          destination-github-username: "thinkerall"
-          destination-repository-name: "thinkerall.github.io"
+          destination-github-username: "weiye-chen"
+          destination-repository-name: "weiye-chen.github.io"
           user-email: 486103739@qq.com
           
       - name: Algolia Index Uploader en
