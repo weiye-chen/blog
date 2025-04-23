@@ -51,31 +51,5 @@ jobs:
           destination-repository-name: "weiye-chen.github.io"
           user-email: 486103739@qq.com
           
-      - name: Algolia Index Uploader en
-        # You may pin to the exact commit or the version.
-        # uses: rxrw/algolia-index-uploader@294d1d600c4a2197a64903b6161cc80acea1becb
-        uses: rxrw/algolia-index-uploader@v1
-        with:
-          # Your Algolia IndexPath
-          index_path: public/index.json   
-          # Algolia Index Id
-          algolia_index_id: N170ZR7D2B  
-          # Algolia Index Name
-          algolia_index_name: index.en  
-          # Algolia Admin Key
-          algolia_index_admin_key: b91a3e4cb93b609d356b0756ed69ffa7  
-          
-      - name: Algolia Index Uploader zh-cn
-        # You may pin to the exact commit or the version.
-        # uses: rxrw/algolia-index-uploader@294d1d600c4a2197a64903b6161cc80acea1becb
-        uses: rxrw/algolia-index-uploader@v1
-        with:
-          # Your Algolia IndexPath
-          index_path: public/zh-cn/index.json   
-          # Algolia Index Id
-          algolia_index_id: N170ZR7D2B  
-          # Algolia Index Name
-          algolia_index_name: index.zh-cn  
-          # Algolia Admin Key
-          algolia_index_admin_key: b91a3e4cb93b609d356b0756ed69ffa7  
+     
           
