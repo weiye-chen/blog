@@ -1,0 +1,235 @@
+[1mdiff --git a/.github/workflows/main.yml b/.github/workflows/main.yml[m
+[1mindex 5af65e2..2c3e4bc 100644[m
+[1m--- a/.github/workflows/main.yml[m
+[1m+++ b/.github/workflows/main.yml[m
+[36m@@ -78,4 +78,4 @@[m [mjobs:[m
+           algolia_index_name: index.zh-cn  [m
+           # Algolia Admin Key[m
+           algolia_index_admin_key: b91a3e4cb93b609d356b0756ed69ffa7  [m
+[31m-          [m
+\ No newline at end of file[m
+[32m+[m[41m          [m
+[1mdiff --git a/config.toml b/config.toml[m
+[1mindex d3391b7..b92ab5f 100644[m
+[1m--- a/config.toml[m
+[1m+++ b/config.toml[m
+[36m@@ -1,4 +1,4 @@[m
+[31m-baseURL = "https://weiye-chen.github.io/"[m
+[32m+[m[32mbaseURL = "https://thinkerall.github.io/"[m
+ [m
+ # theme[m
+ # 主题[m
+[36m@@ -13,16 +13,16 @@[m [mtitle = "William's Blog"[m
+ [m
+ # determines default content language ["en", "zh-cn", "fr", "pl", ...][m
+ # 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...][m
+[31m-defaultContentLanguage = "zh-cn"[m
+[31m-# language code ["en", "zh-cn", "fr", "pl", ...][m
+[32m+[m[32mdefaultContentLanguage = "en"[m
+[32m+[m[32m# language code ["en", "zh-CN", "fr", "pl", ...][m
+ # 网站语言, 仅在这里 CN 大写 ["en", "zh-CN", "fr", "pl", ...][m
+[31m-languageCode = "zh-cn"[m
+[32m+[m[32mlanguageCode = "en"[m
+ # language name ["English", "简体中文", "Français", "Polski", ...][m
+ # 语言名称 ["English", "简体中文", "Français", "Polski", ...][m
+[31m-languageName = "简体中文"[m
+[32m+[m[32mlanguageName = "English"[m
+ # whether to include Chinese/Japanese/Korean[m
+ # 是否包括中日韩文字[m
+[31m-hasCJKLanguage = true[m
+[32m+[m[32mhasCJKLanguage = false[m
+ [m
+ # default amount of posts in each pages[m
+ # 默认每页列表显示的文章数目[m
+[36m@@ -53,7 +53,7 @@[m [mignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"][m
+ [author][m
+   name = "William"[m
+   email = "chenweiye.thinker@gmail.com"[m
+[31m-  link = "https://weiye-chen.github.io/"[m
+[32m+[m[32m  link = "https://thinkerall.github.io/"[m
+ [m
+ # Menu config[m
+ # 菜单配置[m
+[36m@@ -95,7 +95,7 @@[m [mignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"][m
+   defaultTheme = "auto"[m
+   # public git repo url only then enableGitInfo is true[m
+   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效[m
+[31m-  gitRepo = "https://github.com/weiye-chen/weiye-chen.github.io"[m
+[32m+[m[32m  gitRepo = "https://github.com/thinkerall/thinkerall.github.io"[m
+   # which hash function used for SRI, when empty, no SRI is used[m
+   # ["sha256", "sha384", "sha512", "md5"][m
+   # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI[m
+[36m@@ -497,7 +497,7 @@[m [mignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"][m
+       # Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)[m
+       [params.page.comment.gitalk][m
+         enable = true[m
+[31m-        owner = "weiye-chen"[m
+[32m+[m[32m        owner = "thinkerall"[m
+         repo = "blog-comment"[m
+         clientId = "8716450d77022a5ec37e"[m
+         clientSecret = "c7e86b40e9e18ed9327e71d6cd0c25226c20ec7f"[m
+[36m@@ -833,7 +833,7 @@[m [mignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"][m
+         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"[m
+         post = ""[m
+         name = ""[m
+[31m-        url = "https://github.com/weiye-chen"[m
+[32m+[m[32m        url = "https://github.com/thinkerall"[m
+         title = "GitHub"[m
+     [languages.en.params][m
+       [languages.en.params.search][m
+[36m@@ -861,7 +861,7 @@[m [mignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"][m
+           social = true[m
+           disclaimer = ""[m
+       [languages.en.params.social][m
+[31m-        GitHub = "weiye-chen"[m
+[32m+[m[32m        GitHub = "thinkerall"[m
+ 		    Googlescholar = ""[m
+ 		    Researchgate = "Weiye-Chen-5"[m
+         Email = "486103739@qq.com"[m
+[36m@@ -912,7 +912,7 @@[m [mignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"][m
+         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"[m
+         post = ""[m
+         name = ""[m
+[31m-        url = "https://github.com/weiye-chen/weiye-chen.github.io"[m
+[32m+[m[32m        url = "https://github.com/thinkerall/thinkerall.github.io"[m
+         title = "GitHub"[m
+     [languages.zh-cn.params][m
+       [languages.zh-cn.params.search][m
+[36m@@ -940,8 +940,8 @@[m [mignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"][m
+           social = true[m
+           disclaimer = ""[m
+       [languages.zh-cn.params.social][m
+[31m-        GitHub = "weiye-chen"[m
+[31m-        Zhihu = "weiye-chen"[m
+[32m+[m[32m        GitHub = "thinkerall"[m
+[32m+[m[32m        Zhihu = "thinkerall"[m
+         Bilibili = "434421510"[m
+         Email = "486103739@qq.com"[m
+         RSS = true[m
+[1mdiff --git a/config.toml.bak b/config.toml.bak[m
+[1mindex d5601de..aad3613 100644[m
+[1m--- a/config.toml.bak[m
+[1m+++ b/config.toml.bak[m
+[36m@@ -1,4 +1,4 @@[m
+[31m-baseURL = "https://weiye-chen.github.io/"[m
+[32m+[m[32mbaseURL = "https://thinkerall.github.io/"[m
+ [m
+ # theme[m
+ # 主题[m
+[36m@@ -53,7 +53,7 @@[m [mignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"][m
+ [author][m
+   name = "thinker"[m
+   email = "chenweiye.thinker@gmail.com"[m
+[31m-  link = "https://weiye-chen.github.io/"[m
+[32m+[m[32m  link = "https://thinkerall.github.io/"[m
+ [m
+ # Menu config[m
+ # 菜单配置[m
+[36m@@ -95,7 +95,7 @@[m [mignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"][m
+   defaultTheme = "auto"[m
+   # public git repo url only then enableGitInfo is true[m
+   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效[m
+[31m-  gitRepo = "https://github.com/weiye-chen/weiye-chen.github.io"[m
+[32m+[m[32m  gitRepo = "https://github.com/thinkerall/thinkerall.github.io"[m
+   # which hash function used for SRI, when empty, no SRI is used[m
+   # ["sha256", "sha384", "sha512", "md5"][m
+   # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI[m
+[36m@@ -497,7 +497,7 @@[m [mignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"][m
+       # Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)[m
+       [params.page.comment.gitalk][m
+         enable = true[m
+[31m-        owner = "weiye-chen"[m
+[32m+[m[32m        owner = "thinkerall"[m
+         repo = "blog-comment"[m
+         clientId = "8716450d77022a5ec37e"[m
+         clientSecret = "c7e86b40e9e18ed9327e71d6cd0c25226c20ec7f"[m
+[36m@@ -833,7 +833,7 @@[m [mignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"][m
+         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"[m
+         post = ""[m
+         name = ""[m
+[31m-        url = "https://github.com/weiye-chen/weiye-chen.github.io"[m
+[32m+[m[32m        url = "https://github.com/thinkerall/thinkerall.github.io"[m
+         title = "GitHub"[m
+     [languages.en.params][m
+       [languages.en.params.search][m
+[36m@@ -861,7 +861,7 @@[m [mignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"][m
+           social = true[m
+           disclaimer = ""[m
+       [languages.en.params.social][m
+[31m-        GitHub = "weiye-chen"[m
+[32m+[m[32m        GitHub = "thinkerall"[m
+ 		Researchgate = "Weiye-Chen-5"[m
+         Email = "weiye.chen01@foxmail.com"[m
+         RSS = true[m
+[36m@@ -911,7 +911,7 @@[m [mignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"][m
+         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"[m
+         post = ""[m
+         name = ""[m
+[31m-        url = "https://github.com/weiye-chen/weiye-chen.github.io"[m
+[32m+[m[32m        url = "https://github.com/thinkerall/thinkerall.github.io"[m
+         title = "GitHub"[m
+     [languages.zh-cn.params][m
+       [languages.zh-cn.params.search][m
+[36m@@ -939,8 +939,8 @@[m [mignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"][m
+           social = true[m
+           disclaimer = ""[m
+       [languages.zh-cn.params.social][m
+[31m-        GitHub = "weiye-chen"[m
+[31m-        Zhihu = "weiye-chen"[m
+[32m+[m[32m        GitHub = "thinkerall"[m
+[32m+[m[32m        Zhihu = "thinkerall"[m
+         Bilibili = "434421510"[m
+         Email = "486103739@qq.com"[m
+         RSS = true[m
+[1mdiff --git a/content/posts/mulThread/index.en.md b/content/posts/mulThread/index.en.md[m
+[1mdeleted file mode 100644[m
+[1mindex edf75a3..0000000[m
+[1m--- a/content/posts/mulThread/index.en.md[m
+[1m+++ /dev/null[m
+[36m@@ -1,19 +0,0 @@[m
+[31m----[m
+[31m-weight: 1[m
+[31m-title: "Multi-threading"[m
+[31m-date: 2025-04-22T08:00:00+08:00[m
+[31m-lastmod: 2025-04-22T08:00:00+08:00[m
+[31m-draft: false[m
+[31m-author: "William"[m
+[31m-authorLink: "https://weiye-chen.github.io/"[m
+[31m-description: C++ Multi-threading coding"[m
+[31m-images: [][m
+[31m-resources:[m
+[31m-- name: "featured-image"[m
+[31m-  src: "featured-image.jpg"[m
+[31m-[m
+[31m-tags: ["C++", "Multi-threading"][m
+[31m-categories: ["Multi-threading"][m
+[31m-[m
+[31m-lightgallery: true[m
+[31m----[m
+[1mdiff --git a/content/posts/mulThread/index.zh-cn.md b/content/posts/mulThread/index.zh-cn.md[m
+[1mdeleted file mode 100644[m
+[1mindex 8b7563b..0000000[m
+[1m--- a/content/posts/mulThread/index.zh-cn.md[m
+[1m+++ /dev/null[m
+[36m@@ -1,20 +0,0 @@[m
+[31m----[m
+[31m-weight: 1[m
+[31m-title: "多线程"[m
+[31m-date: 2025-04-22T08:00:00+08:00[m
+[31m-lastmod: 2025-04-22T08:00:00+08:00[m
+[31m-draft: false[m
+[31m-author: "William"[m
+[31m-authorLink: "https://weiye-chen.github.io/"[m
+[31m-description: "C++多线程编程"[m
+[31m-images: [][m
+[31m-resources:[m
+[31m-- name: ""[m
+[31m-  src: ""[m
+[31m-  [m
+[31m-tags: ["C++", "多线程"][m
+[31m-categories: ["多线程"][m
+[31m-[m
+[31m-lightgallery: true[m
+[31m----[m
+[31m-## 多线程[m
+\ No newline at end of file[m
