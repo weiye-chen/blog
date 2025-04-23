@@ -18,5 +18,3 @@ categories: ["多线程"]
 lightgallery: true
 ---
 ## 多线程
-
-## 为什么要使用多线程
