@@ -1,4 +1,4 @@
-baseURL = "https://thinkerall.github.io/"
+baseURL = "https://weiye-chen.github.io/"
 
 # theme
 # 主题
@@ -53,7 +53,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 [author]
   name = "thinker"
   email = "chenweiye.thinker@gmail.com"
-  link = "https://thinkerall.github.io/"
+  link = "https://weiye-chen.github.io/"
 
 # Menu config
 # 菜单配置
@@ -95,7 +95,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-  gitRepo = "https://github.com/thinkerall/thinkerall.github.io"
+  gitRepo = "https://github.com/weiye-chen/weiye-chen.github.io"
   # which hash function used for SRI, when empty, no SRI is used
   # ["sha256", "sha384", "sha512", "md5"]
   # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI
@@ -497,7 +497,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]
         enable = true
-        owner = "thinkerall"
+        owner = "weiye-chen"
         repo = "blog-comment"
         clientId = "8716450d77022a5ec37e"
         clientSecret = "c7e86b40e9e18ed9327e71d6cd0c25226c20ec7f"
@@ -833,7 +833,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
         post = ""
         name = ""
-        url = "https://github.com/thinkerall/thinkerall.github.io"
+        url = "https://github.com/weiye-chen/weiye-chen.github.io"
         title = "GitHub"
     [languages.en.params]
       [languages.en.params.search]
@@ -861,7 +861,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           social = true
           disclaimer = ""
       [languages.en.params.social]
-        GitHub = "thinkerall"
+        GitHub = "weiye-chen"
 		Researchgate = "Weiye-Chen-5"
         Email = "weiye.chen01@foxmail.com"
         RSS = true
@@ -911,7 +911,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
         post = ""
         name = ""
-        url = "https://github.com/thinkerall/thinkerall.github.io"
+        url = "https://github.com/weiye-chen/weiye-chen.github.io"
         title = "GitHub"
     [languages.zh-cn.params]
       [languages.zh-cn.params.search]
@@ -939,8 +939,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           social = true
           disclaimer = ""
       [languages.zh-cn.params.social]
-        GitHub = "thinkerall"
-        Zhihu = "thinkerall"
+        GitHub = "weiye-chen"
+        Zhihu = "weiye-chen"
         Bilibili = "434421510"
         Email = "486103739@qq.com"
         RSS = true
